@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body class="preview-page">
+    <header class="preview-header">
+        <button type="button" class="preview-header__btn active" data-responsive-toggle-btn data-viewport-width="100%" data-responsive-view="desktop">
+            <i class="bi bi-pc-display-horizontal"></i>
+        </button>
+        <button type="button" class="preview-header__btn" data-responsive-toggle-btn data-viewport-width="768px" data-responsive-view="tablet">
+            <i class="bi bi-laptop"></i>
+        </button>
+        <button type="button" class="preview-header__btn" data-responsive-toggle-btn data-viewport-width="576px" data-responsive-view="phone">
+            <i class="bi bi-phone"></i>
+        </button>
+    </header>
+    <main class="preview-body">
+        <div class="preview-body__window">
+            <iframe src="./main.html" frameborder="0" class="preview-body__iframe"></iframe>
+        </div>
+    </main>
+</body>
+</html>
